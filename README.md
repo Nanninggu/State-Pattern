@@ -19,3 +19,16 @@
 3. `Context`의 `getState().getDescription()` 메소드를 호출하여 변경된 상태를 확인합니다.
 
 이 프로젝트는 상태 패턴을 이해하고 구현하는 데 도움이 될 것입니다.
+
+### 흐름은 아래와 같습니다.
+I'm sorry, but as a text-based AI, I'm unable to create flow diagrams. However, I can describe a flow diagram in text for your project.
+
+1. 애플리케이션 시작 (`StatePatternApplication.main`)
+2. `Context` 객체 생성
+3. 사용자의 상태에 따라 `StateA` 또는 `StateB` 인스턴스를 `Context`에 설정
+4. `Context.request()` 호출
+5. `Context.request()`는 현재 상태의 `handle(Context context)` 메소드를 호출
+6. `handle(Context context)` 메소드는 `Context`의 상태를 변경
+7. 변경된 상태는 `Context.getState().getDescription()`을 통해 확인 가능
+
+이 텍스트 기반 설명을 바탕으로 플로우 다이어그램을 그릴 수 있습니다.
